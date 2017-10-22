@@ -1,5 +1,5 @@
-import { EntitySystem, getEntitySystemDefinition } from "./EntitySystem";
-import { Component } from "./Component";
+import { EntitySystem, getEntitySystemDefinition } from "./entity-system";
+import { Component } from "./component";
 
 describe("EntitySystem", () =>
 {

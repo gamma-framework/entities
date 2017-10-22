@@ -1,4 +1,4 @@
-[esystem](../README.md) > [ObjectPool](../classes/objectpool.md)
+[Gamma Framework - Entity System](../README.md) > ["object-pool"](../modules/_object_pool_.md) > [ObjectPool](../classes/_object_pool_.objectpool.md)
 
 
 
@@ -7,7 +7,7 @@
 
 Provides a way to reuse object instances wihtut the need of garbage collection, improving perfomance. The pool will automatically grow its own space if the requirements can not be successfully supplied for a specific scenario.
 
-TODO: Add another constructor with a lambda constructor instead of the object constructor. Investigate how a Injection Container could be integrated here.
+> TODO: Add another constructor with a lambda constructor instead of the object constructor. Investigate how a Injection Container could be integrated here.
 *__export__*: 
 
 *__class__*: ObjectPool
@@ -21,17 +21,17 @@ TODO: Add another constructor with a lambda constructor instead of the object co
 
 ### Constructors
 
-* [constructor](objectpool.md#constructor)
+* [constructor](_object_pool_.objectpool.md#constructor)
 
 
 ### Methods
 
-* [available](objectpool.md#available)
-* [dispose](objectpool.md#dispose)
-* [empty](objectpool.md#empty)
-* [get](objectpool.md#get)
-* [resizePool](objectpool.md#resizepool)
-* [totalSize](objectpool.md#totalsize)
+* [available](_object_pool_.objectpool.md#available)
+* [dispose](_object_pool_.objectpool.md#dispose)
+* [empty](_object_pool_.objectpool.md#empty)
+* [get](_object_pool_.objectpool.md#get)
+* [resizePool](_object_pool_.objectpool.md#resizepool)
+* [totalSize](_object_pool_.objectpool.md#totalsize)
 
 
 
@@ -40,10 +40,10 @@ TODO: Add another constructor with a lambda constructor instead of the object co
 <a id="constructor"></a>
 
 
-### ⊕ **new ObjectPool**(objectConstructor: *`object`⎮`Function`*, resizeFactor?: *`number`*): [ObjectPool](objectpool.md)
+### ⊕ **new ObjectPool**(objectConstructor: *`object`⎮`Function`*, resizeFactor?: *`number`*): [ObjectPool](_object_pool_.objectpool.md)
 
 
-*Defined in [ObjectPool.ts:35](https://github.com/gamma-framework/entities/blob/46d6513/src/ObjectPool.ts#L35)*
+*Defined in object-pool.ts:35*
 
 
 
@@ -63,7 +63,7 @@ Creates an instance of ObjectPool.
 
 
 
-**Returns:** [ObjectPool](objectpool.md)
+**Returns:** [ObjectPool](_object_pool_.objectpool.md)
 
 ---
 
@@ -78,7 +78,7 @@ Creates an instance of ObjectPool.
 
 
 
-*Defined in [ObjectPool.ts:85](https://github.com/gamma-framework/entities/blob/46d6513/src/ObjectPool.ts#L85)*
+*Defined in object-pool.ts:85*
 
 
 
@@ -105,7 +105,7 @@ ___
 
 
 
-*Defined in [ObjectPool.ts:74](https://github.com/gamma-framework/entities/blob/46d6513/src/ObjectPool.ts#L74)*
+*Defined in object-pool.ts:74*
 
 
 
@@ -140,7 +140,7 @@ ___
 
 
 
-*Defined in [ObjectPool.ts:108](https://github.com/gamma-framework/entities/blob/46d6513/src/ObjectPool.ts#L108)*
+*Defined in object-pool.ts:108*
 
 
 
@@ -167,7 +167,7 @@ ___
 
 
 
-*Defined in [ObjectPool.ts:57](https://github.com/gamma-framework/entities/blob/46d6513/src/ObjectPool.ts#L57)*
+*Defined in object-pool.ts:57*
 
 
 
@@ -194,7 +194,7 @@ ___
 
 
 
-*Defined in [ObjectPool.ts:119](https://github.com/gamma-framework/entities/blob/46d6513/src/ObjectPool.ts#L119)*
+*Defined in object-pool.ts:119*
 
 
 
@@ -221,7 +221,7 @@ ___
 
 
 
-*Defined in [ObjectPool.ts:97](https://github.com/gamma-framework/entities/blob/46d6513/src/ObjectPool.ts#L97)*
+*Defined in object-pool.ts:97*
 
 
 

@@ -1,4 +1,4 @@
-[esystem](../README.md) > [Entity](../classes/entity.md)
+[Gamma Framework - Entity System](../README.md) > ["entity"](../modules/_entity_.md) > [Entity](../classes/_entity_.entity.md)
 
 
 
@@ -15,46 +15,46 @@ Provides a way to model entities with different subcomponents, allowing modeling
 
 ### Constructors
 
-* [constructor](entity.md#constructor)
+* [constructor](_entity_.entity.md#constructor)
 
 
 ### Properties
 
-* [components](entity.md#components)
-* [disposed](entity.md#disposed)
-* [entityId](entity.md#entityid)
-* [manager](entity.md#manager)
-* [name](entity.md#name)
-* [tags](entity.md#tags)
-* [identity](entity.md#identity)
+* [components](_entity_.entity.md#components)
+* [disposed](_entity_.entity.md#disposed)
+* [entityId](_entity_.entity.md#entityid)
+* [manager](_entity_.entity.md#manager)
+* [name](_entity_.entity.md#name)
+* [tags](_entity_.entity.md#tags)
+* [identity](_entity_.entity.md#identity)
 
 
 ### Accessors
 
-* [id](entity.md#id)
-* [isDisposed](entity.md#isdisposed)
+* [id](_entity_.entity.md#id)
+* [isDisposed](_entity_.entity.md#isdisposed)
 
 
 ### Methods
 
-* [addComponent](entity.md#addcomponent)
-* [addTag](entity.md#addtag)
-* [clearComponents](entity.md#clearcomponents)
-* [clearTags](entity.md#cleartags)
-* [dispose](entity.md#dispose)
-* [finishDispose](entity.md#finishdispose)
-* [getComponentInstance](entity.md#getcomponentinstance)
-* [getComponentName](entity.md#getcomponentname)
-* [getComponentNames](entity.md#getcomponentnames)
-* [getTags](entity.md#gettags)
-* [hasComponent](entity.md#hascomponent)
-* [hasComponents](entity.md#hascomponents)
-* [hasTag](entity.md#hastag)
-* [hasTags](entity.md#hastags)
-* [initialize](entity.md#initialize)
-* [removeComponent](entity.md#removecomponent)
-* [removeTag](entity.md#removetag)
-* [getNewEntityId](entity.md#getnewentityid)
+* [addComponent](_entity_.entity.md#addcomponent)
+* [addTag](_entity_.entity.md#addtag)
+* [clearComponents](_entity_.entity.md#clearcomponents)
+* [clearTags](_entity_.entity.md#cleartags)
+* [dispose](_entity_.entity.md#dispose)
+* [finishDispose](_entity_.entity.md#finishdispose)
+* [getComponentInstance](_entity_.entity.md#getcomponentinstance)
+* [getComponentName](_entity_.entity.md#getcomponentname)
+* [getComponentNames](_entity_.entity.md#getcomponentnames)
+* [getTags](_entity_.entity.md#gettags)
+* [hasComponent](_entity_.entity.md#hascomponent)
+* [hasComponents](_entity_.entity.md#hascomponents)
+* [hasTag](_entity_.entity.md#hastag)
+* [hasTags](_entity_.entity.md#hastags)
+* [initialize](_entity_.entity.md#initialize)
+* [removeComponent](_entity_.entity.md#removecomponent)
+* [removeTag](_entity_.entity.md#removetag)
+* [getNewEntityId](_entity_.entity.md#getnewentityid)
 
 
 
@@ -63,10 +63,10 @@ Provides a way to model entities with different subcomponents, allowing modeling
 <a id="constructor"></a>
 
 
-### ⊕ **new Entity**(): [Entity](entity.md)
+### ⊕ **new Entity**(): [Entity](_entity_.entity.md)
 
 
-*Defined in [Entity.ts:98](https://github.com/gamma-framework/entities/blob/46d6513/src/Entity.ts#L98)*
+*Defined in entity.ts:98*
 
 
 
@@ -77,7 +77,7 @@ Creates an instance of Entity.
 
 
 
-**Returns:** [Entity](entity.md)
+**Returns:** [Entity](_entity_.entity.md)
 
 ---
 
@@ -89,7 +89,7 @@ Creates an instance of Entity.
 
 **●  components**:  *`Dictionary`.<`string`>,.<`any`>* 
 
-*Defined in [Entity.ts:42](https://github.com/gamma-framework/entities/blob/46d6513/src/Entity.ts#L42)*
+*Defined in entity.ts:42*
 
 
 
@@ -110,7 +110,7 @@ ___
 
 **●  disposed**:  *`boolean`* 
 
-*Defined in [Entity.ts:70](https://github.com/gamma-framework/entities/blob/46d6513/src/Entity.ts#L70)*
+*Defined in entity.ts:70*
 
 
 
@@ -131,7 +131,7 @@ ___
 
 **●  entityId**:  *`number`* 
 
-*Defined in [Entity.ts:30](https://github.com/gamma-framework/entities/blob/46d6513/src/Entity.ts#L30)*
+*Defined in entity.ts:30*
 
 
 
@@ -150,9 +150,9 @@ ___
 
 ### «Protected» manager
 
-**●  manager**:  *[EntityManager](entitymanager.md)* 
+**●  manager**:  *[EntityManager](_entity_manager_.entitymanager.md)* 
 
-*Defined in [Entity.ts:61](https://github.com/gamma-framework/entities/blob/46d6513/src/Entity.ts#L61)*
+*Defined in entity.ts:61*
 
 
 
@@ -173,7 +173,7 @@ ___
 
 **●  name**:  *`string`* 
 
-*Defined in [Entity.ts:80](https://github.com/gamma-framework/entities/blob/46d6513/src/Entity.ts#L80)*
+*Defined in entity.ts:80*
 
 
 
@@ -194,7 +194,7 @@ ___
 
 **●  tags**:  *`ArrayList`.<`string`>* 
 
-*Defined in [Entity.ts:51](https://github.com/gamma-framework/entities/blob/46d6513/src/Entity.ts#L51)*
+*Defined in entity.ts:51*
 
 
 
@@ -215,7 +215,7 @@ ___
 
 **●  identity**:  *`number`*  = 0
 
-*Defined in [Entity.ts:21](https://github.com/gamma-framework/entities/blob/46d6513/src/Entity.ts#L21)*
+*Defined in entity.ts:21*
 
 
 
@@ -235,7 +235,7 @@ ___
 
 getid(): `number`
 
-*Defined in [Entity.ts:89](https://github.com/gamma-framework/entities/blob/46d6513/src/Entity.ts#L89)*
+*Defined in entity.ts:89*
 
 
 
@@ -263,7 +263,7 @@ ___
 
 getisDisposed(): `boolean`
 
-*Defined in [Entity.ts:98](https://github.com/gamma-framework/entities/blob/46d6513/src/Entity.ts#L98)*
+*Defined in entity.ts:98*
 
 
 
@@ -290,11 +290,11 @@ ___
 
 ###  addComponent
 
-► **addComponent**T(component: *`object`⎮`Function`*): [Entity](entity.md)
+► **addComponent**T(component: *`object`⎮`Function`*): [Entity](_entity_.entity.md)
 
 
 
-*Defined in [Entity.ts:186](https://github.com/gamma-framework/entities/blob/46d6513/src/Entity.ts#L186)*
+*Defined in entity.ts:186*
 
 
 
@@ -318,7 +318,7 @@ Adds a new component to the entity. The component must be decorated with the @se
 
 
 
-**Returns:** [Entity](entity.md)
+**Returns:** [Entity](_entity_.entity.md)
 
 
 
@@ -330,11 +330,11 @@ ___
 
 ###  addTag
 
-► **addTag**(tag: *`string`*): [Entity](entity.md)
+► **addTag**(tag: *`string`*): [Entity](_entity_.entity.md)
 
 
 
-*Defined in [Entity.ts:327](https://github.com/gamma-framework/entities/blob/46d6513/src/Entity.ts#L327)*
+*Defined in entity.ts:327*
 
 
 
@@ -353,7 +353,7 @@ Adds a new tag to the entity. Tags can help the user to group certain type of en
 
 
 
-**Returns:** [Entity](entity.md)
+**Returns:** [Entity](_entity_.entity.md)
 
 
 
@@ -365,11 +365,11 @@ ___
 
 ###  clearComponents
 
-► **clearComponents**(): [Entity](entity.md)
+► **clearComponents**(): [Entity](_entity_.entity.md)
 
 
 
-*Defined in [Entity.ts:231](https://github.com/gamma-framework/entities/blob/46d6513/src/Entity.ts#L231)*
+*Defined in entity.ts:231*
 
 
 
@@ -380,7 +380,7 @@ Removes all the components from the entity.
 
 
 
-**Returns:** [Entity](entity.md)
+**Returns:** [Entity](_entity_.entity.md)
 
 
 
@@ -392,17 +392,17 @@ ___
 
 ###  clearTags
 
-► **clearTags**(): [Entity](entity.md)
+► **clearTags**(): [Entity](_entity_.entity.md)
 
 
 
-*Defined in [Entity.ts:350](https://github.com/gamma-framework/entities/blob/46d6513/src/Entity.ts#L350)*
+*Defined in entity.ts:350*
 
 
 
 
 
-**Returns:** [Entity](entity.md)
+**Returns:** [Entity](_entity_.entity.md)
 
 
 
@@ -418,7 +418,7 @@ ___
 
 
 
-*Defined in [Entity.ts:150](https://github.com/gamma-framework/entities/blob/46d6513/src/Entity.ts#L150)*
+*Defined in entity.ts:150*
 
 
 
@@ -445,7 +445,7 @@ ___
 
 
 
-*Defined in [Entity.ts:162](https://github.com/gamma-framework/entities/blob/46d6513/src/Entity.ts#L162)*
+*Defined in entity.ts:162*
 
 
 
@@ -472,7 +472,7 @@ ___
 
 
 
-*Defined in [Entity.ts:297](https://github.com/gamma-framework/entities/blob/46d6513/src/Entity.ts#L297)*
+*Defined in entity.ts:297*
 
 
 
@@ -512,7 +512,7 @@ ___
 
 
 
-*Defined in [Entity.ts:386](https://github.com/gamma-framework/entities/blob/46d6513/src/Entity.ts#L386)*
+*Defined in entity.ts:386*
 
 
 
@@ -545,7 +545,7 @@ ___
 
 
 
-*Defined in [Entity.ts:313](https://github.com/gamma-framework/entities/blob/46d6513/src/Entity.ts#L313)*
+*Defined in entity.ts:313*
 
 
 
@@ -572,7 +572,7 @@ ___
 
 
 
-*Defined in [Entity.ts:381](https://github.com/gamma-framework/entities/blob/46d6513/src/Entity.ts#L381)*
+*Defined in entity.ts:381*
 
 
 
@@ -594,7 +594,7 @@ ___
 
 
 
-*Defined in [Entity.ts:255](https://github.com/gamma-framework/entities/blob/46d6513/src/Entity.ts#L255)*
+*Defined in entity.ts:255*
 
 
 
@@ -634,7 +634,7 @@ ___
 
 
 
-*Defined in [Entity.ts:272](https://github.com/gamma-framework/entities/blob/46d6513/src/Entity.ts#L272)*
+*Defined in entity.ts:272*
 
 
 
@@ -674,7 +674,7 @@ ___
 
 
 
-*Defined in [Entity.ts:356](https://github.com/gamma-framework/entities/blob/46d6513/src/Entity.ts#L356)*
+*Defined in entity.ts:356*
 
 
 
@@ -704,7 +704,7 @@ ___
 
 
 
-*Defined in [Entity.ts:364](https://github.com/gamma-framework/entities/blob/46d6513/src/Entity.ts#L364)*
+*Defined in entity.ts:364*
 
 
 
@@ -733,11 +733,11 @@ ___
 
 ###  initialize
 
-► **initialize**(manager: *[EntityManager](entitymanager.md)*): [Entity](entity.md)
+► **initialize**(manager: *[EntityManager](_entity_manager_.entitymanager.md)*): [Entity](_entity_.entity.md)
 
 
 
-*Defined in [Entity.ts:134](https://github.com/gamma-framework/entities/blob/46d6513/src/Entity.ts#L134)*
+*Defined in entity.ts:134*
 
 
 
@@ -750,13 +750,13 @@ Initializes an entity and sets the parent manager.
 
 | Param | Type | Description |
 | ------ | ------ | ------ |
-| manager | [EntityManager](entitymanager.md)   |  - |
+| manager | [EntityManager](_entity_manager_.entitymanager.md)   |  - |
 
 
 
 
 
-**Returns:** [Entity](entity.md)
+**Returns:** [Entity](_entity_.entity.md)
 
 
 
@@ -768,11 +768,11 @@ ___
 
 ###  removeComponent
 
-► **removeComponent**T(component: *`object`⎮`Function`*): [Entity](entity.md)
+► **removeComponent**T(component: *`object`⎮`Function`*): [Entity](_entity_.entity.md)
 
 
 
-*Defined in [Entity.ts:211](https://github.com/gamma-framework/entities/blob/46d6513/src/Entity.ts#L211)*
+*Defined in entity.ts:211*
 
 
 
@@ -796,7 +796,7 @@ Removes a component from the entity.
 
 
 
-**Returns:** [Entity](entity.md)
+**Returns:** [Entity](_entity_.entity.md)
 
 
 
@@ -808,11 +808,11 @@ ___
 
 ###  removeTag
 
-► **removeTag**(tag: *`string`*): [Entity](entity.md)
+► **removeTag**(tag: *`string`*): [Entity](_entity_.entity.md)
 
 
 
-*Defined in [Entity.ts:337](https://github.com/gamma-framework/entities/blob/46d6513/src/Entity.ts#L337)*
+*Defined in entity.ts:337*
 
 
 
@@ -826,7 +826,7 @@ ___
 
 
 
-**Returns:** [Entity](entity.md)
+**Returns:** [Entity](_entity_.entity.md)
 
 
 
@@ -842,7 +842,7 @@ ___
 
 
 
-*Defined in [Entity.ts:399](https://github.com/gamma-framework/entities/blob/46d6513/src/Entity.ts#L399)*
+*Defined in entity.ts:399*
 
 
 

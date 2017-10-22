@@ -1,8 +1,8 @@
-import { EntityManager } from "./EntityManager";
-import { Component } from "./Component";
+import { EntityManager } from "./entity-manager";
+import { Component } from "./component";
 import { ObjectExtensions, FunctionExtensions, ArrayList, TimeSpan } from "@miracledevs/paradigm-ui-web-shared";
-import { Entity } from "./Entity";
-import { EntitySystem, IEntitySystem, getEntitySystemDefinition } from "./EntitySystem";
+import { Entity } from "./entity";
+import { EntitySystem, IEntitySystem, getEntitySystemDefinition } from "./entity-system";
 
 @Component("firstComponent")
 class FirstComponentClass

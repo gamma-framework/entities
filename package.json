@@ -1,20 +1,26 @@
 {
-  "name": "@engine/entities",
+  "name": "@gamma-framework/entities",
   "version": "1.0.0",
   "description": "PUT DESCRIPTION HERE",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "repository": {
-    "type": "github",
-    "url": "https://github.com/engine/entities"
+    "type": "git",
+    "url": "https://github.com/gamma-framework/entities.git"
   },
   "scripts": {
     "test": "gulp test",
     "build": "gulp build",
-    "typedoc": "typedoc --out ./docs/ ./src/ --name esystem --readme ./readme.md --mode file --exclude **/*.spec.ts --tsconfig ./tsconfig.code.json --theme markdown --mdFlavour github"
+    "typedoc": "typedoc --out ./docs/ ./src/ --name \"Gamma Framework - Entity System\" --readme ./readme.md --mode modules --exclude **/*.spec.ts --tsconfig ./tsconfig.code.json --theme markdown --mdFlavour github"
   },
   "private": false,
-  "keywords": [],
+  "keywords": [
+    "Entity",
+    "Entity System",
+    "Composition",
+    "Composition over Inheritance",
+    "Object Pooling"
+  ],
   "author": "Pablo Ordoñez",
   "license": "MIT",
   "devDependencies": {

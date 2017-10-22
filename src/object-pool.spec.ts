@@ -1,4 +1,4 @@
-import { ObjectPool } from "./ObjectPool";
+import { ObjectPool } from "./object-pool";
 
 describe("Object Pool", () =>
 {

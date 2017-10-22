@@ -1,6 +1,6 @@
-import { getComponentName } from "./Component";
+import { getComponentName } from "./component";
 import { Dictionary, ArrayList, StringExtensions, IEnumerable, ObjectExtensions } from "@miracledevs/paradigm-ui-web-shared";
-import { EntityManager } from "./EntityManager";
+import { EntityManager } from "./entity-manager";
 
 /**
  * Provides a way to model entities with different subcomponents, allowing

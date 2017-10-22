@@ -1,6 +1,6 @@
-import { EntityManager } from "./EntityManager";
-import { Entity } from "./Entity";
-import { Component, getComponentName } from "./Component";
+import { EntityManager } from "./entity-manager";
+import { Entity } from "./entity";
+import { Component, getComponentName } from "./component";
 
 @Component("fistComponent")
 class FirstComponentClass

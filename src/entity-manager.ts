@@ -1,9 +1,9 @@
-import { ObjectPool } from "./ObjectPool";
-import { Entity } from "./Entity";
+import { ObjectPool } from "./object-pool";
+import { Entity } from "./entity";
 import { Dictionary, ObjectExtensions, ArrayList, TimeSpan } from "@miracledevs/paradigm-ui-web-shared";
-import { getComponentName } from "./Component";
-import { IEntitySystemDefinition, getEntitySystemDefinition } from "./EntitySystem";
-import { EntitySystemInstance } from "./EntitySystemInstance";
+import { getComponentName } from "./component";
+import { IEntitySystemDefinition, getEntitySystemDefinition } from "./entity-system";
+import { EntitySystemInstance } from "./entity-system-instance";
 
 export class EntityManager
 {

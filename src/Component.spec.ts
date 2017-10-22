@@ -1,4 +1,4 @@
-import { Component, getComponentName } from "./Component";
+import { Component, getComponentName } from "./component";
 
 describe("Component", () =>
 {

@@ -1,9 +1,9 @@
-import { EntitySystem, IEntitySystem } from "./EntitySystem";
-import { Component } from "./Component";
+import { EntitySystem, IEntitySystem } from "./entity-system";
+import { Component } from "./component";
 import { TimeSpan } from "@miracledevs/paradigm-ui-web-shared";
-import { Entity } from "./Entity";
-import { EntitySystemInstance } from "./EntitySystemInstance";
-import { EntityManager } from "./EntityManager";
+import { Entity } from "./entity";
+import { EntitySystemInstance } from "./entity-system-instance";
+import { EntityManager } from "./entity-manager";
 
 describe("Entity System Instance", () =>
 {

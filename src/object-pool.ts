@@ -6,8 +6,8 @@ import { ObjectExtensions } from "@miracledevs/paradigm-ui-web-shared";
  * The pool will automatically grow its own space if the requirements can not be
  * successfully supplied for a specific scenario.
  *
- * TODO: Add another constructor with a lambda constructor instead of the object
- * constructor. Investigate how a Injection Container could be integrated here.
+ * > TODO: Add another constructor with a lambda constructor instead of the object
+ * > constructor. Investigate how a Injection Container could be integrated here.
  *
  * @export
  * @class ObjectPool

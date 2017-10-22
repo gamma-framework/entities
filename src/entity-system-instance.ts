@@ -1,7 +1,7 @@
 import { ObjectExtensions, FunctionExtensions, ArrayList, TimeSpan } from "@miracledevs/paradigm-ui-web-shared";
-import { getComponentName } from "./Component";
-import { Entity } from "./Entity";
-import { IEntitySystemDefinition, IEntitySystem, getEntitySystemDefinition } from "./EntitySystem";
+import { getComponentName } from "./component";
+import { Entity } from "./entity";
+import { IEntitySystemDefinition, IEntitySystem, getEntitySystemDefinition } from "./entity-system";
 
 export class EntitySystemInstance
 {

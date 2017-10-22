@@ -1,4 +1,4 @@
-# Entity System
+# Gamma Framework - Entity System
 
 This library provides an easy and lightweight entity system with object pooling
 and an easy to use approach, similar to angular decoration procedure.
@@ -48,4 +48,41 @@ var entity = manager.createEntity()
 while(true){
     manager.updateSystems(elapsed);
 }
+```
+
+Installing The Library
+---
+```
+npm install --save @gamma-framework/entities
+```
+
+
+Building The Library
+---
+
+At least for now, the solution will utilize gulp to build and run tests,
+but could change in the future to webpack or other packers.
+To build the solution just type:
+```
+npm run build
+```
+or
+```
+gulp
+```
+
+Testing the Library
+---
+Testing the library is also pretty stright forward:
+```
+npm run test
+```
+or
+```
+gulp test
+```
+
+Building the Documentation
+```
+npm run typedoc
 ```

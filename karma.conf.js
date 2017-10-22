@@ -28,8 +28,8 @@
         reporters: ["spec", "karma-typescript"],
         browsers: ["ChromeHeadless"],
         logLevel: config.TRACE,
-        singleRun: false,
-        autoWatch: true,
+        singleRun: true,
+        autoWatch: false,
         concurrency: Infinity
     });
 };
